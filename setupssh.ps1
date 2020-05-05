@@ -1,4 +1,4 @@
-
+Set-ExecutionPolicy RemoteSigned -force
 Get-Service  -Name ssh-agent | Set-Service -StartupType Manual
 mkdir ~\.ssh
 cd ~\.ssh
