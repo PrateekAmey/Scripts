@@ -1,0 +1,3 @@
+sudo useradd -s /bin/bash -d /data/home/$1 -m "USername"
+sudo echo -e 'pass\npass\n' | sudo passwd "Username"
+sudo usermod -aG sudo username
